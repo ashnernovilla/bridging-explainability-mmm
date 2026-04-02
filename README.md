@@ -43,14 +43,14 @@ pip install pandas numpy scikit-learn semopy statsmodels fredapi trendspy yfinan
 
 ## **💻 Usage**
 
-The primary script is Electronics Consumer \- SEM \- US.py, which is formatted using jupytext (percent format) and can be executed as a standard Python script or converted directly into a Jupyter Notebook.  
+The primary script is  Electronics_Consumer_SEM_US.ipynb but have a python formatted filr  Electronics_Consumer_SEM_US.py, which can be executed as a standard Python script or converted directly into a Jupyter Notebook using jupytext.  
 To run the pipeline:
 
 1. Ensure your API keys (like the FRED API key) are configured in the script.  
 2. Place your raw weekly MMM data in the specified directory.  
 3. Execute the script:
 
-python "Electronics Consumer \- SEM \- US.py"
+python "Electronics_Consumer_SEM_US.py"
 
 ### **Pipeline Overview:**
 
