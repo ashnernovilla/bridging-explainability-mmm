@@ -1,0 +1,30 @@
+# Data Manipulation & Core Libraries
+numpy
+pandas
+openpyxl
+
+# Machine Learning & Modeling
+scikit-learn
+statsmodels
+semopy
+tensorflow
+tensorflow-probability
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+arviz
+
+# External Data APIs
+fredapi
+pytrends
+trendspy
+yfinance
+
+# Utilities
+holidays
+requests
+urllib3
+ipython
+psutil
