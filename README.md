@@ -43,14 +43,21 @@ pip install pandas numpy scikit-learn semopy statsmodels fredapi trendspy yfinan
 
 ## **💻 Usage**
 
-The primary script is  Electronics_Consumer_SEM_US.ipynb but have a python formatted filr  Electronics_Consumer_SEM_US.py, which can be executed as a standard Python script or converted directly into a Jupyter Notebook using jupytext.  
-To run the pipeline:
+The primary codebase is contained within the "SEM-Informed Media Mix Modeling.ipynb" notebook. To execute this pipeline as a standard Python script, you must first convert it into a .py file using jupytext.
 
-1. Ensure your API keys (like the FRED API key) are configured in the script.  
-2. Place your raw weekly MMM data in the specified directory.  
-3. Execute the script:
+To extract and run the pipeline:
 
-python "Electronics_Consumer_SEM_US.py"
+1. Extract the Python script: Use jupytext in your terminal to convert the Jupyter Notebook into a Python file.
+
+        jupytext --to py "SEM-Informed Media Mix Modeling.ipynb"
+
+2. Configure your API keys: Open the newly generated "SEM-Informed Media Mix Modeling.py" script and ensure your credentials (such as the FRED API key) are properly configured.
+
+3. Prepare your data: Place your raw weekly MMM data into the directory specified within the script.
+
+4. Execute the script: Run the extracted Python file directly from your terminal.
+
+        python "SEM-Informed Media Mix Modeling.py"
 
 ### **Pipeline Overview:**
 
